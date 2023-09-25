@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+@font-face {
+    font-family: "poppins";
+    src: url(./../fonts/Poppins/Poppins-Black.ttf);
+}
+
+@font-face {
+    font-family: "clinzel";
+    src: url(./../fonts/Cinzel/Cinzel-VariableFont_wght.ttf);
+}
+
+.textimbild {
+    color: #fff;
+    text-align: center;
+    font-family: "clinzel";
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700px;
+    line-height: normal;
+    display: block;
+    padding: 200px 0;
+}
+
+h2 {
+    font-family: "clinzel";
+    src: url(./../fonts/Cinzel/Cinzel-VariableFont_wght.ttf);
+    color: #999;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700px;
+    line-height: normal; 
+    padding-left: 45px;   
+    padding-bottom: 10px;
+    padding-top: 5px;
+}
+
+
+.teil-1 {
+    /* display: contents; */
+    /* height: 570px;
+    width: 100%; */
+    /* padding: 0px 400px 0px 420px; */
+    text-align: center;
+    /* justify-content: flex-end; */
+    /* align-items: center; */
+    background: url("https://s3-alpha-sig.figma.com/img/e8d5/ac02/3015f19d657c9e7551017974e9863b37?Expires=1696204800&Signature=TVq9bBnclhLaqktjQ50GQWpH~ysv5EIwhRzOLJSLbkB7qowQaeQJfZMKviwBuAwI0~1oWnHXSka4K5b9ywbLFY0IM8EutckaollTSKwkPqkeoJ1qLTaPui8UtqmuECR8Pi-Gwc56PlQrPXNSL8wmTxs3QXK-iWw3Ycx4N1Ica-YtVuJwU~qL5KXLLv74KW1r7HtEjovnAlzmg224GtqGT7AL~YBj0Qoj3dyokI96tHOGLPxf8N5lMGAuZsAJ4T9VuJyL0karMhPHN5gUaJBN30g99Tsq5oC-ooh4onnOgUtJS81njZxLfyTubLwHiC3I8jX7Cul~BLVkTilJ9ENvYQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4") center/cover no-repeat;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.fließ-text {
+    color: #333;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400px;
+    line-height: normal;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 60px;
+
+}
+
+.bilder img {
+    width: 360px;
+    height: 200px;
+    margin-right: 40px;
+    margin-left: 70px;
+
+}   
+/* .bilder {
+    display: inline;
+    padding-top: 30px;
+    width: 360px;
+    height: 200px;
+} */
+
+/* article {
+    display:flex;
+    padding-top: 30px;
+    width: 360px;
+    height: 200px;
+} */
+
+.liste {
+    margin-left: 100px;
+    color: #333;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400px;
+    line-height: normal;  
+    text-decoration: none;
+    list-style: none;
+}
+
+
+.liste li:nth-of-type(1),.liste li:nth-of-type(2)  {
+    margin-bottom: 8px;
+}
+
+/* .liste li:nth-of-type(2) {
+    margin-bottom: 8px;
+} */
+
+.liste li:nth-of-type(3) {
+    margin-bottom: 8px;
+}
+
+.liste li:nth-of-type(4) {
+    margin-bottom: 8px;
+}
+
+.liste li:nth-of-type(5) {
+    margin-bottom: 8px;
+}
+.liste li:nth-of-type(6) {
+    margin-bottom: 8px;
+}
+
+.acontact {
+    color: #333;
+    font-family: "clinzel";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700px;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.asozialemedien {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700px;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.rot {
+    color: red;
+}
+
+.grün {
+    color: green;
+}
+
+.blau {
+    color: #3B5998;
+}
+
+.hellblau {
+    color:  #1DA1F2;
+}
+
+.lila {
+    color: #C32AA3;
+}
+
+footer {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
